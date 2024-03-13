@@ -14,7 +14,7 @@ document.addEventListener("keydown", function(event) {
 });
 
 document.getElementById('send').addEventListener("click", function() {
-    alert(`Saudações ${input.value}`);
+    alert(`Saudações, ${input.value} (${input.value.length})`);
     body.style.backgroundColor = document.getElementById('color').value;
     if (input.value.trim() === '') {
         input.style.backgroundColor = 'red';
